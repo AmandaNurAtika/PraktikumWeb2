@@ -121,30 +121,31 @@ Abstraction adalah proses menyembunyikan detail implementasi internal dan
 hanya menampilkan fungsionalitas utama kepada pengguna. Ini biasanya dicapai
 dengan menggunakan kelas abstrak atau antarmuka.
 # Instruksi Kerja
-1. Inheritance
+## 1. Inheritance
 - Buat kelas Person dengan atribut name dan metode getName().
 - Buat kelas Student yang mewarisi dari Person dan tambahkan atribut studentID
 serta metode getStudentID().
 ### Script dan Output Program
 ![js3_ininheritance](https://github.com/user-attachments/assets/451b831d-40f1-4e3e-ad7e-8ee2dc62974a)
-
-2. Polymorphism
+![Screenshot 2024-10-15 170115](https://github.com/user-attachments/assets/fd626271-aaf7-464d-963a-e5eba62203d1)
+## 2. Polymorphism
 - Buat kelas Teacher yang juga mewarisi dari Person dan tambahkan atribut
 teacherID.
 - Override metode getName() di kelas Student dan Teacher untuk menampilkan
 format berbeda.
 ### Script dan Output Program
 ![js3_inpoly](https://github.com/user-attachments/assets/5eb6e191-2f5d-419c-a607-a863fc607ee5)
-
-3. Encapsulation
+![Screenshot 2024-10-15 170140](https://github.com/user-attachments/assets/d4f29749-2e70-4c0e-b4a6-57dda5d70449)
+## 3. Encapsulation
 - Ubah atribut name dan studentID dalam kelas Student menjadi private.o Tambahkan metode setter dan getter untuk mengakses dan mengubah nilai
 atribut name dan studentID.
 ### Script dan Output Program
 ![js3_inenkapsulasi](https://github.com/user-attachments/assets/502eac4f-23da-4739-8e59-83301dea7a55)
-
-4. Abstraction
+![Screenshot 2024-10-15 170149](https://github.com/user-attachments/assets/b01e3752-1f4f-4403-8811-3853194628db)
+## 4. Abstraction
 - Buat kelas abstrak Course dengan metode abstrak getCourseDetails().
 - Buat kelas OnlineCourse dan OfflineCourse yang mengimplementasikan
 getCourseDetails() untuk memberikan detail yang berbeda.
 ### Script dan Output Program
 ![js3_inabstrak](https://github.com/user-attachments/assets/03f66d5b-ebb2-41c7-b7b4-04f90bf097c7)
+![Screenshot 2024-10-15 170200](https://github.com/user-attachments/assets/f37362ff-7df6-4efe-bc5d-540f435f201d)
