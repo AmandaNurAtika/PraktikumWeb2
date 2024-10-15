@@ -77,14 +77,26 @@ mampu mengimplementasikan konsep dasar OOP dalam pemrograman PHP dengan membuat 
 - Buat class Dosen yang mewarisi class Pengguna dan tambahkan atribut mataKuliah.
 - Instansiasi objek dari class Dosen dan tampilkan data dosen.
 ### Script dan Output Program
-
+![js2_ininheritance](https://github.com/user-attachments/assets/8f8d36ac-e511-44e0-a931-e55ade267d8f)
+![Screenshot 2024-10-15 153335](https://github.com/user-attachments/assets/5d72bfcc-6fb7-45ad-9aa4-c4e01ff1713e)
 ## 4. Polymorphism
 - Buat class Pengguna dengan metode aksesFitur().
 - Implementasikan aksesFitur() dengan cara berbeda di class Dosen dan Mahasiswa.
 - Instansiasi objek dari class Dosen dan Mahasiswa, lalu panggil metode aksesFitur().
 ### Script dan Output Program
-
-5. Abstraction
+![js2_inpoly](https://github.com/user-attachments/assets/8ec98a5d-a95d-4542-bc12-ab17fec8428b)
+![Screenshot 2024-10-15 153351](https://github.com/user-attachments/assets/57bb4b26-7ddf-4898-a7e0-e4cd556f1513)
+## 5. Abstraction
 - Buat class abstrak Pengguna dengan metode abstrak aksesFitur().
 - Implementasikan class Mahasiswa dan Dosen yang mengimplementasikan metode abstrak tersebut.
 - Demonstrasikan dengan memanggil metode aksesFitur() dari objek yang diinstansiasi.
+### Script dan Output Program
+![js2_inabstrak](https://github.com/user-attachments/assets/afb062e8-2db1-4e18-8f14-bfb569f095e8)
+![Screenshot 2024-10-15 153400](https://github.com/user-attachments/assets/f409a4a9-5afe-4335-98f5-90a3f83fc95e)
+
+# Tugas Jobsheet 2
+1. Buat dokumentasi lengkap dari proyek yang telah dibuat dan unggah ke repository
+GitHub. Dokumentasi ini harus mencakup penjelasan dari tiap langkah, kode
+sumber, dan hasil output program.
+2. Unggah laporan proyek dalam bentuk dokumentasi GitHub, beserta penjelasan dan
+panduan penggunaan.
