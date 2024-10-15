@@ -102,3 +102,47 @@ sumber, dan hasil output program.
 panduan penggunaan.
 
 # Jobsheet 3
+Mampu Menerapkan Konsep Inheritance, Polymorphism, Encapsulation,
+dan Abstraction dalam PHP
+# Materi
+1. Inheritance (Pewarisan)
+Inheritance adalah konsep di mana sebuah kelas dapat mewarisi atribut dan
+metode dari kelas lain. Ini memungkinkan penggunaan kembali kode dan
+menciptakan hubungan hierarkis antara kelas.
+2. Polymorphism (Polimorfisme)
+Polymorphism memungkinkan satu metode untuk memiliki banyak bentuk,
+biasanya melalui metode overriding di kelas turunan. Dengan ini, objek dapat
+diperlakukan sebagai bentuk umum dan khusus sesuai kebutuhan.
+3. Encapsulation (Enkapsulasi)
+Encapsulation menyembunyikan detail internal dari sebuah objek dan hanya
+membiarkan interaksi melalui metode publik yang tersedia, menjaga data internal
+tetap aman dari perubahan tak terduga
+4. Abstraction (Abstraksi)
+Abstraction adalah proses menyembunyikan detail implementasi internal dan
+hanya menampilkan fungsionalitas utama kepada pengguna. Ini biasanya dicapai
+dengan menggunakan kelas abstrak atau antarmuka.
+# Instruksi Kerja
+1. Inheritance
+- Buat kelas Person dengan atribut name dan metode getName().
+- Buat kelas Student yang mewarisi dari Person dan tambahkan atribut studentID
+serta metode getStudentID().
+### Script dan Output Program
+
+2. Polymorphism
+- Buat kelas Teacher yang juga mewarisi dari Person dan tambahkan atribut
+teacherID.
+- Override metode getName() di kelas Student dan Teacher untuk menampilkan
+format berbeda.
+### Script dan Output Program
+
+3. Encapsulation
+- Ubah atribut name dan studentID dalam kelas Student menjadi private.o Tambahkan metode setter dan getter untuk mengakses dan mengubah nilai
+atribut name dan studentID.
+### Script dan Output Program
+
+
+4. Abstraction
+- Buat kelas abstrak Course dengan metode abstrak getCourseDetails().
+- Buat kelas OnlineCourse dan OfflineCourse yang mengimplementasikan
+getCourseDetails() untuk memberikan detail yang berbeda.
+### Script dan Output Program
