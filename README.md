@@ -32,6 +32,7 @@ Mampu menggunakan konsep kelas dan objek dalam PHP melalui serangkaian tugas yan
 - Tampilkan data mahasiswa yang sudah diperbarui dengan memanggil metode tampilkanData().
 ## Script dan Output Instruksi Kerja Jobsheet 1
 ![js1_instruksi](https://github.com/user-attachments/assets/eb2a84b3-5259-4455-aa58-6b2a946613b8)
+
 ![Screenshot 2024-10-15 145526](https://github.com/user-attachments/assets/37b652e1-a86e-47e6-b45f-f997093010de)
 # Tugas Jobsheet 1
 1. Implementasikan kelas Dosen dengan atribut nama, nip, dan mataKuliah.
@@ -56,4 +57,27 @@ mampu mengimplementasikan konsep dasar OOP dalam pemrograman PHP dengan membuat 
 - Polymorphism: Metode yang sama dapat memiliki implementasi berbeda dalam class yang berbeda.
 - Abstraction: Menyembunyikan detail implementasi dan hanya menampilkan fungsi penting.
 # Instruksi Kerja
+1. Membuat Class dan Object
+- Buat class Mahasiswa yang memiliki atribut nama, nim, dan jurusan.
+- Buat metode tampilkanData() dalam class Mahasiswa.
+- Instansiasi objek dari class Mahasiswa dan tampilkan data mahasiswa tersebut.
+### Script dan Output Program
+![js2_insobjek](https://github.com/user-attachments/assets/d0c415b9-0936-42d3-aa2f-d2d02d48b74d)
 
+![Screenshot 2024-10-15 151527](https://github.com/user-attachments/assets/dabb4723-d68f-4ac2-9b02-a3faaa1703ad)
+2. Encapsulation
+- Ubah atribut dalam class Mahasiswa menjadi private.
+- Buat metode getter dan setter untuk atribut nama, nim, dan jurusan.
+- Demonstrasikan akses ke atribut menggunakan metode getter dan setter.
+3. Inheritance
+- Buat class Pengguna dengan atribut nama dan metode getNama().
+- Buat class Dosen yang mewarisi class Pengguna dan tambahkan atribut mataKuliah.
+- Instansiasi objek dari class Dosen dan tampilkan data dosen.
+4. Polymorphism
+- Buat class Pengguna dengan metode aksesFitur().
+- Implementasikan aksesFitur() dengan cara berbeda di class Dosen dan Mahasiswa.
+- Instansiasi objek dari class Dosen dan Mahasiswa, lalu panggil metode aksesFitur().
+5. Abstraction
+- Buat class abstrak Pengguna dengan metode abstrak aksesFitur().
+- Implementasikan class Mahasiswa dan Dosen yang mengimplementasikan metode abstrak tersebut.
+- Demonstrasikan dengan memanggil metode aksesFitur() dari objek yang diinstansiasi.
