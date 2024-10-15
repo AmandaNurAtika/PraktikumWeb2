@@ -48,10 +48,9 @@ pembuatan kelas, penggunaan metode, dan hasil output.
 mampu mengimplementasikan konsep dasar OOP dalam pemrograman PHP dengan membuat class, objek, serta menerapkan prinsip Encapsulation, Inheritance, Polymorphism, dan Abstraction.
 # Materi
 ## Konsep Dasar OOP
-1. Class dan Object
 - Class: Blueprint atau template untuk menciptakan objek.
 - Object: Instance dari class yang memiliki atribut (properties) dan perilaku (methods).
-2. Prinsip OOP
+## Prinsip OOP
 - Encapsulation: Menyembunyikan detail implementasi dan hanya memberikan akses melalui metode tertentu.
 - Inheritance: Kelas dapat mewarisi properti dan metode dari kelas lain.
 - Polymorphism: Metode yang sama dapat memiliki implementasi berbeda dalam class yang berbeda.
@@ -127,6 +126,7 @@ dengan menggunakan kelas abstrak atau antarmuka.
 - Buat kelas Student yang mewarisi dari Person dan tambahkan atribut studentID
 serta metode getStudentID().
 ### Script dan Output Program
+![js3_ininheritance](https://github.com/user-attachments/assets/451b831d-40f1-4e3e-ad7e-8ee2dc62974a)
 
 2. Polymorphism
 - Buat kelas Teacher yang juga mewarisi dari Person dan tambahkan atribut
@@ -134,15 +134,17 @@ teacherID.
 - Override metode getName() di kelas Student dan Teacher untuk menampilkan
 format berbeda.
 ### Script dan Output Program
+![js3_inpoly](https://github.com/user-attachments/assets/5eb6e191-2f5d-419c-a607-a863fc607ee5)
 
 3. Encapsulation
 - Ubah atribut name dan studentID dalam kelas Student menjadi private.o Tambahkan metode setter dan getter untuk mengakses dan mengubah nilai
 atribut name dan studentID.
 ### Script dan Output Program
-
+![js3_inenkapsulasi](https://github.com/user-attachments/assets/502eac4f-23da-4739-8e59-83301dea7a55)
 
 4. Abstraction
 - Buat kelas abstrak Course dengan metode abstrak getCourseDetails().
 - Buat kelas OnlineCourse dan OfflineCourse yang mengimplementasikan
 getCourseDetails() untuk memberikan detail yang berbeda.
 ### Script dan Output Program
+![js3_inabstrak](https://github.com/user-attachments/assets/03f66d5b-ebb2-41c7-b7b4-04f90bf097c7)
