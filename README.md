@@ -43,3 +43,12 @@ pembuatan kelas, penggunaan metode, dan hasil output.
 ![js1_tugas](https://github.com/user-attachments/assets/ea4731c7-077d-403f-876e-3b2c32ce7489)
 ![Screenshot 2024-10-15 145835](https://github.com/user-attachments/assets/c93169bf-0def-42c8-8f35-c681d58fac21)
 
+# Jobsheet 2
+mampu mengimplementasikan konsep dasar OOP dalam pemrograman PHP dengan membuat class, objek, serta menerapkan prinsip Encapsulation, Inheritance, Polymorphism, dan Abstraction.
+# Materi
+## Konsep Dasar OOP
+1. Class dan Object
+- Class: Blueprint atau template untuk menciptakan objek.
+- Object: Instance dari class yang memiliki atribut (properties) dan perilaku (methods).
+2. Prinsip OOP
+- Encapsulation: Menyembunyikan detail implementasi dan hanya memberikan akses melalui metode tertentu.
