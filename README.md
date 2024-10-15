@@ -1,6 +1,6 @@
 # PraktikumWeb2
 # Jobsheet 1
-Mampu menggunakan konsep kelas dan objek dalam PHP
+Mampu menggunakan konsep kelas dan objek dalam PHP melalui serangkaian tugas yang menekankan pada pembuatan dan penggunaan kelas serta objek
 # Materi
 ## Kelas dan Objek
 Kelas (Class)
