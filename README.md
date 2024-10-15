@@ -30,3 +30,7 @@ Mampu menggunakan konsep kelas dan objek dalam PHP melalui serangkaian tugas yan
 4. Penggunaan Atribut dan Metode
 - Ubah nilai atribut nim dari objek Mahasiswa menggunakan metode setter.
 - Tampilkan data mahasiswa yang sudah diperbarui dengan memanggil metode tampilkanData().
+# Script dan Output Program Instruksi Kerja
+![js1_instruksi](https://github.com/user-attachments/assets/eb2a84b3-5259-4455-aa58-6b2a946613b8)
+![Screenshot 2024-10-15 144447](https://github.com/user-attachments/assets/169ea2e0-6ac5-410e-affa-a055a3977984)
+
