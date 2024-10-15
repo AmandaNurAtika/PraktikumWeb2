@@ -32,7 +32,7 @@ Mampu menggunakan konsep kelas dan objek dalam PHP melalui serangkaian tugas yan
 - Tampilkan data mahasiswa yang sudah diperbarui dengan memanggil metode tampilkanData().
 ## Script dan Output Instruksi Kerja Jobsheet 1
 ![js1_instruksi](https://github.com/user-attachments/assets/eb2a84b3-5259-4455-aa58-6b2a946613b8)
-![Screenshot 2024-10-15 144447](https://github.com/user-attachments/assets/169ea2e0-6ac5-410e-affa-a055a3977984)
+![Screenshot 2024-10-15 145526](https://github.com/user-attachments/assets/37b652e1-a86e-47e6-b45f-f997093010de)
 # Tugas Jobsheet 1
 1. Implementasikan kelas Dosen dengan atribut nama, nip, dan mataKuliah.
 2. Buat metode tampilkanDosen() untuk menampilkan informasi dosen.
