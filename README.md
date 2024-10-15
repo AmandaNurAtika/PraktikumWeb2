@@ -149,3 +149,21 @@ getCourseDetails() untuk memberikan detail yang berbeda.
 ### Script dan Output Program
 ![js3_inabstrak](https://github.com/user-attachments/assets/03f66d5b-ebb2-41c7-b7b4-04f90bf097c7)
 ![Screenshot 2024-10-15 170200](https://github.com/user-attachments/assets/f37362ff-7df6-4efe-bc5d-540f435f201d)
+# Tugas Jobsheet 3
+Buat proyek PHP dengan studi kasus sebagai berikut:
+1. Implementasikan kelas Person sebagai induk dari Dosen dan Mahasiswa.
+2. Gunakan konsep Inheritance untuk membuat hierarki kelas yang memungkinkan
+Dosen dan Mahasiswa memiliki atribut dan metode yang sesuai dengan perannya.
+3. Terapkan Polymorphism dengan membuat metode getRole() di kelas Person dan
+override metode ini di kelas Dosen dan Mahasiswa untuk menampilkan peran yang
+berbeda.
+4. Gunakan Encapsulation untuk melindungi atribut nidn di kelas Dosen dan nim di
+kelas Mahasiswa.
+5. Buat kelas abstrak Jurnal dan implementasikan konsep Abstraction dengan
+membuat kelas turunan JurnalDosen dan JurnalMahasiswa yang masing-masing
+memiliki cara tersendiri untuk mengelola pengajuan jurnal.
+Dokumentasikan proyek ini dalam bentuk laporan yang diunggah ke GitHub, termasuk
+penjelasan tentang penerapan masing-masing konsep OOP.
+## Script dan Output Program
+![js3_tugas](https://github.com/user-attachments/assets/12a6d9ff-d99a-4a22-9efd-90caf0b8c758)
+![Screenshot 2024-10-15 172203](https://github.com/user-attachments/assets/34e7397b-c0d2-4e8d-b289-b830b9966b54)
