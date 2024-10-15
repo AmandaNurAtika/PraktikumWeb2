@@ -54,3 +54,6 @@ mampu mengimplementasikan konsep dasar OOP dalam pemrograman PHP dengan membuat 
 - Encapsulation: Menyembunyikan detail implementasi dan hanya memberikan akses melalui metode tertentu.
 - Inheritance: Kelas dapat mewarisi properti dan metode dari kelas lain.
 - Polymorphism: Metode yang sama dapat memiliki implementasi berbeda dalam class yang berbeda.
+- Abstraction: Menyembunyikan detail implementasi dan hanya menampilkan fungsi penting.
+# Instruksi Kerja
+
