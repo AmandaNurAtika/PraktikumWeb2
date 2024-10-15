@@ -39,3 +39,7 @@ Mampu menggunakan konsep kelas dan objek dalam PHP melalui serangkaian tugas yan
 3. Buat objek dari kelas Dosen, dan gunakan metode tampilkanDosen() untuk menampilkan informasi tersebut.
 4. Buat dokumentasi proyek dan unggah ke repository GitHub, menjelaskan proses
 pembuatan kelas, penggunaan metode, dan hasil output.
+## Script dan Output Tugas Jobsheet 1
+![js1_tugas](https://github.com/user-attachments/assets/ea4731c7-077d-403f-876e-3b2c32ce7489)
+![Screenshot 2024-10-15 145835](https://github.com/user-attachments/assets/c93169bf-0def-42c8-8f35-c681d58fac21)
+
