@@ -30,10 +30,23 @@ Mampu menggunakan konsep kelas dan objek dalam PHP melalui serangkaian tugas yan
 4. Penggunaan Atribut dan Metode
 - Ubah nilai atribut nim dari objek Mahasiswa menggunakan metode setter.
 - Tampilkan data mahasiswa yang sudah diperbarui dengan memanggil metode tampilkanData().
+
 ## Script dan Output Instruksi Kerja Jobsheet 1
 ![js1_instruksi](https://github.com/user-attachments/assets/eb2a84b3-5259-4455-aa58-6b2a946613b8)
-
 ![Screenshot 2024-10-15 145526](https://github.com/user-attachments/assets/37b652e1-a86e-47e6-b45f-f997093010de)
+## Fitur Utama
+Instansiasi Objek: Membuat objek baru dari kelas Mahasiswa.
+Tampilan Data Mahasiswa: Menampilkan informasi mahasiswa, termasuk nama, NIM, dan jurusan.
+Perubahan Data:
+Mengubah jurusan mahasiswa dengan menggunakan metode updateJurusan.
+Mengubah NIM mahasiswa dengan menggunakan metode setNim.
+## Struktur Kode
+Kelas Mahasiswa:
+Atribut: nama, nim, jurusan.
+Constructor: Inisialisasi objek dengan nilai default untuk atribut nama, nim, dan jurusan.
+Metode tampilkanData(): Menampilkan data mahasiswa dalam bentuk string.
+Metode updateJurusan(): Mengubah nilai jurusan mahasiswa.
+Setter setNim(): Mengubah nilai NIM mahasiswa.
 # Tugas Jobsheet 1
 1. Implementasikan kelas Dosen dengan atribut nama, nip, dan mataKuliah.
 2. Buat metode tampilkanDosen() untuk menampilkan informasi dosen.
@@ -43,6 +56,14 @@ pembuatan kelas, penggunaan metode, dan hasil output.
 ## Script dan Output Tugas Jobsheet 1
 ![js1_tugas](https://github.com/user-attachments/assets/ea4731c7-077d-403f-876e-3b2c32ce7489)
 ![Screenshot 2024-10-15 145835](https://github.com/user-attachments/assets/c93169bf-0def-42c8-8f35-c681d58fac21)
+## Fitur
+Kelas Dosen: Kelas PHP yang menyimpan informasi tentang nama dosen, NIP, dan mata kuliah yang diajarkan.
+Constructor: Constructor menerima tiga parameter — nama, NIP, dan mata kuliah yang diajarkan — untuk menginisialisasi objek dari kelas ini.
+Fungsi Tampilkan Dosen: Fungsi tampilkanDosen() digunakan untuk mengembalikan informasi dosen dalam format yang rapi.
+## Cara Penggunaan
+Definisikan kelas Dosen dengan atribut nama, nip, dan matakuliah.
+Gunakan constructor untuk membuat objek baru dengan memberikan nilai-nilai yang dibutuhkan (nama, NIP, mata kuliah).
+Gunakan metode tampilkanDosen() untuk menampilkan informasi dosen dalam format string.
 
 # Jobsheet 2
 mampu mengimplementasikan konsep dasar OOP dalam pemrograman PHP dengan membuat class, objek, serta menerapkan prinsip Encapsulation, Inheritance, Polymorphism, dan Abstraction.
@@ -64,6 +85,26 @@ mampu mengimplementasikan konsep dasar OOP dalam pemrograman PHP dengan membuat 
 ### Script dan Output Program
 ![js2_insobjek](https://github.com/user-attachments/assets/d0c415b9-0936-42d3-aa2f-d2d02d48b74d)
 ![Screenshot 2024-10-15 151527](https://github.com/user-attachments/assets/dabb4723-d68f-4ac2-9b02-a3faaa1703ad)
+## Fitur
+Kelas Mahasiswa: Kelas yang merepresentasikan data seorang mahasiswa dengan atribut:
+Nama mahasiswa (nama).
+NIM mahasiswa (nim).
+Jurusan mahasiswa (jurusan).
+Constructor: Konstruksi kelas yang menerima tiga parameter: nama, NIM, dan jurusan mahasiswa.
+Fungsi tampilkanData(): Fungsi yang mengembalikan data mahasiswa dalam format string yang mudah dibaca, mencakup nama, NIM, dan jurusan.
+## Cara Penggunaan
+Definisikan kelas Mahasiswa dengan atribut nama, nim, dan jurusan.
+Buat objek baru dari kelas Mahasiswa menggunakan constructor, dan berikan nilai-nilai untuk nama, NIM, dan jurusan.
+Gunakan metode tampilkanData() untuk menampilkan informasi mahasiswa dalam format string yang rapi.
+Struktur Kode
+Definisi Kelas: Kelas Mahasiswa didefinisikan dengan tiga properti dan sebuah constructor.
+## Atribut Properti:
+- public $nama: Menyimpan nama mahasiswa.
+- public $nim: Menyimpan NIM mahasiswa.
+- public $jurusan: Menyimpan jurusan mahasiswa.
+- Constructor: Menginisialisasi objek mahasiswa dengan data yang diberikan (nama, NIM, jurusan).
+- Metode tampilkanData(): Mengembalikan string yang berisi data mahasiswa dengan format: Mahasiswa itu bernama: [nama], NIM [nim], jurusan [jurusan].
+
 ## 2. Encapsulation
 - Ubah atribut dalam class Mahasiswa menjadi private.
 - Buat metode getter dan setter untuk atribut nama, nim, dan jurusan.
